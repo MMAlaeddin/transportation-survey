@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Transportation Survey</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Transportation Survey</h1>
+    </div>
+    <form>
+      <div class="form-group">
+        <p>How do you get to work?</p>
+        <input type="checkbox" name="work" value="car">Car<br>
+        <input type="checkbox" name="work" value="bike">bike<br>
+        <input type="checkbox" name="work" value="bus">bus<br>
+        <input type="checkbox" name="work" value="foot">foot<br>
+        <input type="checkbox" name="work" value="train">train<br>
+      </div>
+      <div class="form-group">
+        <p>How do you get to the parties?</p>
+        <input type="checkbox" name="fun" value="car">Car<br>
+        <input type="checkbox" name="fun" value="bike">bike<br>
+        <input type="checkbox" name="fun" value="bus">bus<br>
+        <input type="checkbox" name="fun" value="foot">foot<br>
+        <input type="checkbox" name="fun" value="train">train<br>
+      </div>
+            
+      <button type="submit" class="btn-warning">TELL ME WHERE TO GO!</button>
+    </form>
+    <div class="output">
+      <p id="work">You used these transportation methods to get to work: </p>
+      <p id="fun">You used these transportation methods to get to parties:</p>
+    </div>
+  </div>
+</body>
+</html>
